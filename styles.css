@@ -68,17 +68,26 @@ a:hover {
 
 .avatar {
   width: 100%;
-  max-width: 350px;
+  max-width: 145px;
   height: auto;
   margin-top: 150px;
-  margin-bottom: 90px;
+  margin-bottom: 30px;
   border-radius: 999px;
   filter: grayscale(1);
 }
 
 h1 {
   font-weight: 700;
-  font-size: 72px;
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 14px;
 }
 
 .icon-svg {
@@ -93,15 +102,44 @@ h1 {
   transform: scale(1.3);
 }
 
+.my-30 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.my-60 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.container-about {
+  width: 100%;
+  max-width: 640px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  padding: 26px;
+  border-radius: 30px;
+  background-color: #292929;
+}
+
 @media screen and (min-width: 480px) {
   h1 {
     font-weight: 700;
     font-size: 48px;
   }
 
+  h2 {
+    font-size: 24px;
+  }
+
   .avatar {
     max-width: 145px;
     margin-top: 90px;
-    margin-bottom: 36px;
+    margin-bottom: 90px;
   }
 }
